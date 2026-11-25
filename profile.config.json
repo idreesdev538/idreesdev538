@@ -1,0 +1,184 @@
+{
+  "login": "idreesdev538",
+  "name": "Muhammad Idrees Younas",
+  "short": "Idrees",
+  "role": "Lead Full Stack Developer",
+  "company": "DevEntia Tech",
+  "location": "Islamabad, Pakistan",
+  "status": "Open to remote roles and founder projects",
+  "headline": [
+    "Full stack engineer",
+    "building products",
+    "that ship."
+  ],
+  "yearsBuilding": "4+",
+  "productsShipped": "10+",
+  "statsMinContributions": 150,
+  "links": [
+    {
+      "id": "site",
+      "label": "Portfolio",
+      "url": "https://idreex.netlify.app"
+    },
+    {
+      "id": "li",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/muhammadidrees538"
+    },
+    {
+      "id": "mail",
+      "label": "Email",
+      "url": "mailto:idreesdev538@gmail.com"
+    }
+  ],
+  "now": [
+    [
+      "role",
+      "Lead Full Stack @ DevEntia Tech: architecture, clients, releases"
+    ],
+    [
+      "for hire",
+      "SaaS MVPs, Next.js apps, React Native apps for founders"
+    ],
+    [
+      "building",
+      "Naap, a bilingual (EN / Urdu) measurement book for tailors"
+    ],
+    [
+      "exploring",
+      "AI agent workflows and tool-using LLM apps"
+    ],
+    [
+      "ask me",
+      "Next.js, React Native, Supabase Realtime, CI/CD on AWS"
+    ]
+  ],
+  "stack": [
+    [
+      "frontend",
+      [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind",
+        "TanStack Query",
+        "Redux"
+      ]
+    ],
+    [
+      "backend",
+      [
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "GraphQL",
+        "Socket.io",
+        "REST"
+      ]
+    ],
+    [
+      "mobile",
+      [
+        "React Native",
+        "Expo"
+      ]
+    ],
+    [
+      "data",
+      [
+        "PostgreSQL",
+        "MongoDB",
+        "Supabase",
+        "Prisma",
+        "Firebase"
+      ]
+    ],
+    [
+      "ops",
+      [
+        "AWS EC2 / S3",
+        "Docker",
+        "Jenkins",
+        "Vercel",
+        "Netlify"
+      ]
+    ]
+  ],
+  "projects": [
+    {
+      "id": "carblock",
+      "visual": "auction",
+      "tag": "Marketplace · Live auctions",
+      "name": "CarBlock",
+      "lines": [
+        "Vehicle marketplace with live",
+        "auctions and dealer trading. Led",
+        "web, admin panel and backend."
+      ],
+      "tech": [
+        "Next.js 14",
+        "Supabase",
+        "LiveKit",
+        "Stripe"
+      ],
+      "url": "https://thecarblock.com",
+      "cta": "thecarblock.com"
+    },
+    {
+      "id": "mesureos",
+      "visual": "phone",
+      "tag": "Tailoring SaaS · Solo build",
+      "name": "MesureOS",
+      "lines": [
+        "Two mobile apps, a site and an",
+        "admin panel, built alone. Live",
+        "on the App Store and Play."
+      ],
+      "tech": [
+        "React Native",
+        "Node.js",
+        "Supabase"
+      ],
+      "url": "https://mesureos.com",
+      "cta": "mesureos.com"
+    },
+    {
+      "id": "boxing",
+      "visual": "pass",
+      "tag": "Membership platform · FR / EN / DE",
+      "name": "Boxing Thérapie",
+      "lines": [
+        "Plans, payments and a QR pass",
+        "that a coach scans at the door.",
+        "Three languages, one codebase."
+      ],
+      "tech": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "next-intl"
+      ],
+      "url": "",
+      "cta": "launching soon"
+    },
+    {
+      "id": "dashboards",
+      "visual": "chart",
+      "tag": "Analytics · Finance & sales",
+      "name": "Executive Dashboards",
+      "lines": [
+        "Finance and funnel dashboards",
+        "fed by Excel workbooks and a",
+        "scheduled Close CRM sync."
+      ],
+      "tech": [
+        "React 19",
+        "Recharts",
+        "Express",
+        "MongoDB"
+      ],
+      "url": "",
+      "cta": "private client tool"
+    }
+  ]
+}

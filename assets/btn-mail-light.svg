@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="44" viewBox="0 0 110 44" role="img" aria-label="Email">
+<title>Email</title>
+<style>
+  .sans{font-family:Geist, 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif} .mono{font-family:'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace} .serif{font-family:'Instrument Serif', Georgia, 'Times New Roman', serif;font-style:italic}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes pulse{0%{r:4;opacity:.9}70%{r:11;opacity:0}100%{r:11;opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  .pulse{animation:pulse 2s ease-out infinite}
+  .rise{animation:rise .7s cubic-bezier(.22,1,.36,1) both}
+  .drift{animation:drift 14s ease-in-out infinite}
+  @media (prefers-reduced-motion:reduce){.blink,.pulse,.rise,.drift{animation:none}}
+</style>
+<rect x="0.5" y="0.5" width="109" height="43" rx="22" fill="#ffffff" stroke="rgba(10,10,20,0.18)"/>
+<g transform="translate(26 22)" style="color:#111015"><rect x="-7.5" y="-5.5" width="15" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M-7 -4.5L0 1L7 -4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></g>
+<text x="44" y="26.5" class="mono" font-size="13" letter-spacing="1.2" fill="#111015">EMAIL</text>
+</svg>
