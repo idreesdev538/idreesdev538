@@ -6,4 +6,6 @@
 <a href="https://idreex.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-site-dark.svg"><img src="assets/btn-site-light.svg" alt="Portfolio"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/muhammadidrees538"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-li-dark.svg"><img src="assets/btn-li-light.svg" alt="LinkedIn"></picture></a>&nbsp;<a href="mailto:idreesdev538@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-mail-dark.svg"><img src="assets/btn-mail-light.svg" alt="Email"></picture></a>
 </p>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/notice-dark.svg"><img src="assets/notice-light.svg" alt="My old account @idrees538 was suspended, so this is my main GitHub now. Links to github.com/idrees538 no longer work." width="100%"></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg"><img src="assets/skills-light.svg" alt="Skills: Frontend: React, Next.js, TypeScript, JavaScript, Redux, TanStack Query, Tailwind CSS; Backend: Node.js, Express.js, REST APIs, WebSockets; Mobile: React Native, Expo; Data: PostgreSQL, MongoDB, Supabase; Delivery: AWS EC2 / S3, Docker, Jenkins CI/CD, Git" width="100%"></picture>

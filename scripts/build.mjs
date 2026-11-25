@@ -203,6 +203,17 @@ function button(link, t) {
   return svg(W, H, body, text);
 }
 
+// ---------------------------------------------------------------- old account notice
+function notice(t) {
+  const W = 1200, H = 64;
+  const o = cfg.oldAccount;
+  const body = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="${t.panel2}" stroke="${t.line2}" stroke-dasharray="5 5"/>
+<circle cx="40" cy="32" r="11" fill="none" stroke="${t.acc2}" stroke-width="1.8"/>
+<path d="M40 26v7M40 37.5v.5" stroke="${t.acc2}" stroke-width="2" stroke-linecap="round"/>
+<text x="64" y="37.5" class="sans" font-size="16" fill="${t.fg}">${esc(o.note)} <tspan class="mono" font-size="13" fill="${t.muted}">Links to github.com/${esc(o.login)} no longer work.</tspan></text>`;
+  return svg(W, H, body, `${o.note} Links to github.com/${o.login} no longer work.`);
+}
+
 // ---------------------------------------------------------------- skills
 function skills(t) {
   const W = 1200, rowH = 48, H = 96 + cfg.skills.length * rowH;
@@ -289,6 +300,7 @@ for (const [mode, t] of Object.entries(THEMES)) {
   const w = (name, content) => { writeFileSync(join(OUT, `${name}-${mode}.svg`), content); count++; };
   w("hero", hero(t));
   for (const l of cfg.links) w(`btn-${l.id}`, button(l, t));
+  if (cfg.oldAccount) w("notice", notice(t));
   w("skills", skills(t));
   w("stats", stats(t, s));
 }
@@ -306,7 +318,7 @@ ${pic("hero", `${cfg.name}, ${cfg.role} at ${cfg.company}. ${cfg.intro}`, "100%"
 <p align="center">
 ${cfg.links.map((l) => pic(`btn-${l.id}`, l.label, undefined, l.url)).join("&nbsp;")}
 </p>
-
+${cfg.oldAccount ? `\n${pic("notice", `${cfg.oldAccount.note} Links to github.com/${cfg.oldAccount.login} no longer work.`, "100%")}\n` : ""}
 ${pic("skills", "Skills: " + cfg.skills.map(([k, v]) => `${k}: ${v.join(", ")}`).join("; "), "100%")}
 ${showStats ? `\n${pic("stats", "My GitHub contributions over the last year", "100%")}\n` : ""}`;
 writeFileSync(join(ROOT, "README.md"), readme);

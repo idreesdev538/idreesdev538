@@ -8,6 +8,10 @@
   "intro": "I build web and mobile apps with React, Next.js, Node.js and React Native.",
   "status": "Open to remote roles",
   "statsMinContributions": 150,
+  "oldAccount": {
+    "login": "idrees538",
+    "note": "My old account @idrees538 was suspended, so this is my main GitHub now."
+  },
 
   "links": [
     { "id": "site", "label": "Portfolio", "url": "https://idreex.netlify.app" },
