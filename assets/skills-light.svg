@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-label="Skills: Frontend: React, Next.js, TypeScript, JavaScript, Redux, TanStack Query, Tailwind CSS; Backend: Node.js, Express.js, REST APIs, WebSockets; Mobile: React Native, Expo; Data: PostgreSQL, MongoDB, Supabase; Delivery: AWS EC2 / S3, Docker, Jenkins CI/CD, Git">
+<title>Skills: Frontend: React, Next.js, TypeScript, JavaScript, Redux, TanStack Query, Tailwind CSS; Backend: Node.js, Express.js, REST APIs, WebSockets; Mobile: React Native, Expo; Data: PostgreSQL, MongoDB, Supabase; Delivery: AWS EC2 / S3, Docker, Jenkins CI/CD, Git</title>
+<style>
+  .sans{font-family:'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif} .mono{font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+  @keyframes pulse{0%{r:4;opacity:.8}70%{r:11;opacity:0}100%{r:11;opacity:0}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes fadein{from{opacity:0}to{opacity:1}}
+  .pulse{animation:pulse 2s ease-out infinite}
+  .spin{animation:spin 40s linear infinite;transform-box:fill-box;transform-origin:center}
+  .spin-r{animation:spin 60s linear infinite reverse;transform-box:fill-box;transform-origin:center}
+  .fadein{animation:fadein .6s ease-out both}
+  @media (prefers-reduced-motion:reduce){.pulse,.spin,.spin-r,.fadein{animation:none}}
+</style>
+<rect x="0.5" y="0.5" width="1199" height="335" rx="16" fill="#fffdf9" stroke="rgba(30,30,50,0.10)"/>
+<rect x="48" y="38" width="10" height="10" rx="2" fill="#e8622f"/>
+<text x="68" y="48" class="sans" font-size="18" font-weight="700" fill="#1c1d2b">Skills</text>
+
+<text x="48" y="100" class="sans" font-size="14" font-weight="600" fill="#555a6e">Frontend</text>
+<rect x="200" y="80" width="78" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="215" cy="95" r="3.5" fill="#e8622f"/>
+<text x="226" y="99.5" class="mono" font-size="13" fill="#1c1d2b">React</text><rect x="286" y="80" width="94" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="301" cy="95" r="3.5" fill="#e8622f"/>
+<text x="312" y="99.5" class="mono" font-size="13" fill="#1c1d2b">Next.js</text><rect x="388" y="80" width="119" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="403" cy="95" r="3.5" fill="#e8622f"/>
+<text x="414" y="99.5" class="mono" font-size="13" fill="#1c1d2b">TypeScript</text><rect x="515" y="80" width="119" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="530" cy="95" r="3.5" fill="#e8622f"/>
+<text x="541" y="99.5" class="mono" font-size="13" fill="#1c1d2b">JavaScript</text><rect x="642" y="80" width="78" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="657" cy="95" r="3.5" fill="#e8622f"/>
+<text x="668" y="99.5" class="mono" font-size="13" fill="#1c1d2b">Redux</text><rect x="728" y="80" width="151" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="743" cy="95" r="3.5" fill="#e8622f"/>
+<text x="754" y="99.5" class="mono" font-size="13" fill="#1c1d2b">TanStack Query</text><rect x="887" y="80" width="135" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="902" cy="95" r="3.5" fill="#e8622f"/>
+<text x="913" y="99.5" class="mono" font-size="13" fill="#1c1d2b">Tailwind CSS</text>
+<text x="48" y="148" class="sans" font-size="14" font-weight="600" fill="#555a6e">Backend</text>
+<rect x="200" y="128" width="94" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="215" cy="143" r="3.5" fill="#b7791f"/>
+<text x="226" y="147.5" class="mono" font-size="13" fill="#1c1d2b">Node.js</text><rect x="302" y="128" width="119" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="317" cy="143" r="3.5" fill="#b7791f"/>
+<text x="328" y="147.5" class="mono" font-size="13" fill="#1c1d2b">Express.js</text><rect x="429" y="128" width="111" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="444" cy="143" r="3.5" fill="#b7791f"/>
+<text x="455" y="147.5" class="mono" font-size="13" fill="#1c1d2b">REST APIs</text><rect x="548" y="128" width="119" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="563" cy="143" r="3.5" fill="#b7791f"/>
+<text x="574" y="147.5" class="mono" font-size="13" fill="#1c1d2b">WebSockets</text>
+<text x="48" y="196" class="sans" font-size="14" font-weight="600" fill="#555a6e">Mobile</text>
+<rect x="200" y="176" width="135" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="215" cy="191" r="3.5" fill="#0f8a7e"/>
+<text x="226" y="195.5" class="mono" font-size="13" fill="#1c1d2b">React Native</text><rect x="343" y="176" width="70" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="358" cy="191" r="3.5" fill="#0f8a7e"/>
+<text x="369" y="195.5" class="mono" font-size="13" fill="#1c1d2b">Expo</text>
+<text x="48" y="244" class="sans" font-size="14" font-weight="600" fill="#555a6e">Data</text>
+<rect x="200" y="224" width="119" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="215" cy="239" r="3.5" fill="#e8622f"/>
+<text x="226" y="243.5" class="mono" font-size="13" fill="#1c1d2b">PostgreSQL</text><rect x="327" y="224" width="94" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="342" cy="239" r="3.5" fill="#e8622f"/>
+<text x="353" y="243.5" class="mono" font-size="13" fill="#1c1d2b">MongoDB</text><rect x="429" y="224" width="102" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="444" cy="239" r="3.5" fill="#e8622f"/>
+<text x="455" y="243.5" class="mono" font-size="13" fill="#1c1d2b">Supabase</text>
+<text x="48" y="292" class="sans" font-size="14" font-weight="600" fill="#555a6e">Delivery</text>
+<rect x="200" y="272" width="135" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="215" cy="287" r="3.5" fill="#b7791f"/>
+<text x="226" y="291.5" class="mono" font-size="13" fill="#1c1d2b">AWS EC2 / S3</text><rect x="343" y="272" width="86" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="358" cy="287" r="3.5" fill="#b7791f"/>
+<text x="369" y="291.5" class="mono" font-size="13" fill="#1c1d2b">Docker</text><rect x="437" y="272" width="143" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="452" cy="287" r="3.5" fill="#b7791f"/>
+<text x="463" y="291.5" class="mono" font-size="13" fill="#1c1d2b">Jenkins CI/CD</text><rect x="588" y="272" width="62" height="30" rx="8" fill="#f6f1ea" stroke="rgba(30,30,50,0.10)"/>
+<circle cx="603" cy="287" r="3.5" fill="#b7791f"/>
+<text x="614" y="291.5" class="mono" font-size="13" fill="#1c1d2b">Git</text>
+</svg>

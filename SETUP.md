@@ -15,7 +15,7 @@ GitHub shows the README of a repo named after your username at the top of your p
 
 ## Day to day
 
-- Change text, projects or stack: edit `profile.config.json`, push. The Action redraws everything.
+- Change text, links or skills: edit `profile.config.json`, push. The Action redraws everything.
 - Preview locally: `node scripts/build.mjs`, then open the SVGs in `assets/`.
 - The "On GitHub" stats card stays hidden until you pass `statsMinContributions` (150) in a year. Set it to `0` to always show it.
 - To count private work: GitHub profile → *Contributions & activity* → enable **Private contributions**. For the most accurate numbers, add a classic token with `read:user` as the repo secret `PROFILE_TOKEN`.
