@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "17 0 * * *" # every night, 00:17 UTC (05:17 in Islamabad)
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["profile.config.json", "scripts/**"]
 
 permissions:
   contents: write
